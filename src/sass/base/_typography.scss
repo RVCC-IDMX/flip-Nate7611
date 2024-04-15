@@ -1,8 +1,12 @@
 /* typography */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face {
+    font-family: 'Andy Pro';
+    src: url('/fonts/AndyBold.OTF') format('opentype'),
+         url('/fonts/AndyRegular.OTF') format('opentype');
+}
 
-$font: "Poppins", serif;
+$font: 'Andy Pro', sans-serif;
 
 // body font styling vars
 $body-font-size: 120%;
